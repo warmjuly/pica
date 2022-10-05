@@ -13,7 +13,9 @@ function Form() {
 				<input type="text"></input>
 				<label>Details</label>
 				<textarea rows="6" placeholder="Type a short message here." />
-				<button className="btn">Submit</button>
+				<button type="button" className="btn">
+					Submit
+				</button>
 			</form>
 		</div>
 	);
