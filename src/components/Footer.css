@@ -52,7 +52,7 @@
 	padding-top: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 667px) {
 	.footer {
 		grid-template-columns: 1fr;
 	}
