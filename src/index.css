@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Urbanist:ital@0;1&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h4,
+p,
+a,
+label {
+	color: #e0e0e2;
+}
+
+body {
+	margin: 0;
+	font-family: "Lora", serif;
+	font-family: "Urbanist", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	padding: 12px 32px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	background: transparent;
+	color: #e0e0e2;
+	border: 1px solid #e0e0e2;
+	cursor: pointer;
+}
+
+.btn-light {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
