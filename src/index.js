@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<HashRouter basename="process.env.PUBLIC_URL">
-		<App />
+		<Route exact path="/" component={App} />
 	</HashRouter>
 );
